@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>AppleShop - Home</title>
+
+    <style>
+      footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: #fff;
+        margin-top: 20px;
+      }
+  
+      footer p {
+        margin: 5px 0;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <p class="logo">AppleShop</p>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Catalog</h1>
+      <div class="goods">
+        <div class="item">
+          <a href="macbook-pro.html">
+            <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117_Full-Bleed-Image.jpg.large.jpg" alt="MacBook Pro" height="200px">
+            <p>MacBook Pro</p>
+          </a>
+        </div>
+        <div class="item">
+          <a href="macbook-air.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIPC9KllbHdIX6hTHI5qb_ynpN07a_QT9-Iw&s" alt="MacBook Air" height="200px">
+            <p>MacBook Air</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; Developed & Designed by Pawan Kumar.</p>
+      <p>&copy; Contributors: Vanshika Kaushik, Noel Johnson Jacob, Ayush Das, Dhananjay Yadav.</p>
+    </footer>
+  </body>
+</html>
